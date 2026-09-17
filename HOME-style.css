@@ -1,9 +1,11 @@
 body {
     margin: 0;
+    background-color: #fffbef;
 }
 
 nav {
-    background-color: aquamarine;
+    background-color: #eedcc8;
+    color: #fffbef;
     width: 100%;
     height: 60px;
     display: flex;
@@ -17,11 +19,12 @@ nav a {
 }
 
 header {
-    background-color: blueviolet;
+    background-color: #5d0703;
     display: flex;
     flex-direction: column;
     text-align: center;
     font-size: 17px;
+    color: #fffbef;
 }
 
 .parte1 {
@@ -49,13 +52,13 @@ header {
 }
 
 .evento {
-    background-color: brown;
+    background-color: #eedcc8;
     width: 305px;
     height: 390px;
     border-radius: 10px;
     flex-wrap: wrap;
     margin-left: 10px;
-    margin-inline: 50px;
+    margin-inline: 70px;
     margin-top: 20px;
     line-height: 14px;
     text-align: center;
@@ -81,4 +84,8 @@ footer{
     margin-top: 20px;
 }
 
-
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+}
