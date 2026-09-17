@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscrição</title>
+</head>
+<body>
+    <header>
+        <h1>Inscrição em Eventos</h1>
+        <p>Preencha o formulário abaixo para se inscrever no evento desejado.</p>
+    </header>
+
+    <section>
+        <form>
+            <div>
+                <label for="nome">Nome completo: <br></label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div>
+                <label for="email">E-Mail: <br></label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div>
+                <label for="">Curso: <br></label>
+                <input type="curso" id="curso" name="curso">
+            </div>
+            
+            <p>Período:</p>
+            <div>
+                <input type="radio" id="matutino" name="matutino" value="matutino">
+                <label for="matutino">Matutino</label>
+            </div>
+            <div>
+                <input type="radio" id="vespertino" name="vespertino" value="vespertino">
+                <label for="vespertino">Vespertino</label>
+            </div>
+            <div>
+                <input type="radio" id="noturno" name="noturno" value="noturno">
+                <label for="noturno">Noturno</label>
+            </div>
+            <br>
+            <div>
+                <label for="evento">Evento desejado: <br></label>
+
+                <select name="evento" id="evento">
+                    <option value="selecionar">selecionar</option>
+
+                    <option value="Inteligência">Inteligência Artificial e o Futuro do Trabalho</option>
+
+                    <option value="python">Python para Iniciantes</option>
+
+                    <option value="fotografia">Oficina de Fotografia</option>
+
+                    <option value="design">Design Thinking na Prática</option>
+
+                    <option value="tecnologia">Carreira em Tecnologia</option>
+
+                    <option value="desenvolvimento">Introdução ao Desenvolvimento Web</option>
+            </select>
+            </div>
+
+            <p>Modalidade:</p>
+            <div>
+                <input type="radio" id="presencial" name="presencial">
+                <label for="presencial">Presencial</label>
+            </div>
+            <div>
+                <input type="radio" id="online" name="online">
+                <label for="online">Online</label>
+            </div>
+
+            <p>Confirmação:</p>
+            <div>
+                <input type="checkbox" id="concordo" name="concordo">
+                <label for="concordo">Concordo com os termos de inscrição</label>
+            </div>
+
+            <div>
+                <button type="submit">Realizar inscrição</button>
+            </div>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Ulbra <br> Eventos Acadêmicos</p>
+        <p>Home | Programação | Inscrição</p>
+        <p>&copy; Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
